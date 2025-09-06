@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000; /* Color global de textos */
+}
+
+header {
+    background-color: rgb(255, 238, 5);  
+    text-align: center;
+    padding: 20px;
+    flex: 0 0 60px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+nav {
+    background-color: rgb(140, 0, 255);
+    padding: 20px;
+    flex: 0 0 200px;
+}
+
+/* Estilos para la lista del navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(0, 253, 0); 
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(7, 127, 174);
+    text-align: center;
+    padding: 15px;
+    flex: 0 0 50px;
+}
+
+/* Estilo extra para contactos (sección general) */
+#contactos {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 8px;
+}
+
+/* Estilo para cada contacto individual */
+.contacto {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.contacto img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
